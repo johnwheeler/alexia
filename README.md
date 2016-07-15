@@ -136,7 +136,7 @@ app.intent('CardsIntent', 'Whats in shopping cart', () => {
 To add reprompt text to your response add `reprompt` string value to responseObject
 
 ```javascript
-app.intent('RepromptIntent', 'Send emai to Mom', () => {
+app.intent('RepromptIntent', 'Send email to Mom', () => {
     return {
         text: 'What is the text of your message',
         reprompt: 'Sorry I did not catch it. What is the text of your message'
